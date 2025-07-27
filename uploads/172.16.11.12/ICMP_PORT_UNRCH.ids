@@ -1,0 +1,66 @@
+[**] [DEMO] ICMP Packet Detected [**]
+07/07-08:46:21.097443 172.16.11.12 -> 172.16.11.1
+ICMP TTL:64 TOS:0x0 ID:62305 IpLen:20 DgmLen:56
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.11.1:53 -> 172.16.11.12:59368
+UDP TTL:64 TOS:0x0 ID:49536 IpLen:20 DgmLen:67
+Len: 39  Csum: 0
+** END OF DUMP
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] ICMP Packet Detected [**]
+07/07-08:46:22.043585 172.16.11.12 -> 172.16.11.1
+ICMP TTL:64 TOS:0x0 ID:37934 IpLen:20 DgmLen:56
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.11.1:53 -> 172.16.11.12:50282
+UDP TTL:64 TOS:0x0 ID:49545 IpLen:20 DgmLen:81
+Len: 53  Csum: 0
+** END OF DUMP
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] ICMP Packet Detected [**]
+07/07-08:46:22.049091 172.16.11.12 -> 172.16.11.1
+ICMP TTL:64 TOS:0x0 ID:42813 IpLen:20 DgmLen:56
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.11.1:53 -> 172.16.11.12:59925
+UDP TTL:64 TOS:0x0 ID:49546 IpLen:20 DgmLen:132
+Len: 104  Csum: 0
+** END OF DUMP
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] ICMP Packet Detected [**]
+07/07-08:46:22.165776 172.16.11.12 -> 172.16.11.1
+ICMP TTL:64 TOS:0x0 ID:51823 IpLen:20 DgmLen:56
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.11.1:53 -> 172.16.11.12:57238
+UDP TTL:64 TOS:0x0 ID:49549 IpLen:20 DgmLen:78
+Len: 50  Csum: 0
+** END OF DUMP
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] ICMP Packet Detected [**]
+07/07-08:46:22.167609 172.16.11.12 -> 172.16.11.1
+ICMP TTL:64 TOS:0x0 ID:55042 IpLen:20 DgmLen:56
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.11.1:53 -> 172.16.11.12:57238
+UDP TTL:64 TOS:0x0 ID:49550 IpLen:20 DgmLen:78
+Len: 50  Csum: 0
+** END OF DUMP
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] ICMP Packet Detected [**]
+07/07-08:46:22.246309 172.16.11.12 -> 172.16.11.1
+ICMP TTL:64 TOS:0x0 ID:51755 IpLen:20 DgmLen:56
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+172.16.11.1:53 -> 172.16.11.12:57360
+UDP TTL:64 TOS:0x0 ID:49559 IpLen:20 DgmLen:83
+Len: 55  Csum: 0
+** END OF DUMP
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+

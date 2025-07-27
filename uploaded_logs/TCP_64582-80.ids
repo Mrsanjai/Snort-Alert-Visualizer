@@ -1,0 +1,36 @@
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.071626 172.16.11.12:64582 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:54024 IpLen:20 DgmLen:64 DF
+******S* Seq: 0xCE4D63CD  Ack: 0x0  Win: 0xFFFF  TcpLen: 44
+TCP Options (8) => MSS: 1460 NOP WS: 3 NOP NOP TS: 444433468 0 
+TCP Options => SackOK EOL 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.127638 172.16.11.12:64582 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:37208 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xCE4D63CE  Ack: 0xB04F0FCE  Win: 0xFFFF  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 444433468 1310420135 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.127719 172.16.11.12:64582 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:6438 IpLen:20 DgmLen:558 DF
+***AP*** Seq: 0xCE4D63CE  Ack: 0xB04F0FCE  Win: 0xFFFF  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 444433468 1310420135 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.530925 172.16.11.12:64582 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:16728 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xCE4D65C8  Ack: 0xB04F10F3  Win: 0xFFFF  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 444433472 1310420539 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.531747 172.16.11.12:64582 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:382 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xCE4D65C8  Ack: 0xB04F10F4  Win: 0xFFFF  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 444433472 1310420539 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+

@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5 text-light animate__animated animate__fadeIn">
+    <h2 class="mb-4"><i class="fas fa-search me-2"></i>Snort Alert Explorer</h2>
+
+    <form method="get" action="{{ url_for('views_bp.explorer') }}" class="row g-3 mb-4">
+        <div class="col-md-4">
+            <input type="text" class="form-control bg-dark text-light border-secondary" name="date" placeholder="Filter by Date (YYYY-MM-DD)" value="{{ request.args.get('date', '') }}">
+        </div>
+        <div class="col-md-4">
+            <input type="text" class="form-control bg-dark text-light border-secondary" name="ip" placeholder="Filter by IP" value="{{ request.args.get('ip', '') }}">
+        </div>
+        <div class="col-md-4">
+            <select class="form-select bg-dark text-light border-secondary" name="severity">
+                <option value="">Filter by Severity</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+        </div>
+        <div class="col-12 text-end">
+            <button type="submit" class="btn btn-primary px-4"><i class="fas fa-filter me-2"></i>Apply</button>
+        </div>
+    </form>
+
+    {% if logs %}
+    <div class="table-responsive animate__animated animate__fadeInUp">
+        <table class="table table-dark table-hover shadow-sm border border-secondary rounded">
+            <thead class="table-light text-dark">
+                <tr>
+                    <th>Timestamp</th>
+                    <th>Source IP</th>
+                    <th>Destination IP</th>
+                    <th>Protocol</th>
+                    <th>Message</th>
+                    <th>Severity</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for log in logs %}
+                <tr>
+                    <td>{{ log.timestamp }}</td>
+                    <td>{{ log.src_ip }}</td>
+                    <td>{{ log.dest_ip }}</td>
+                    <td>{{ log.protocol }}</td>
+                    <td>{{ log.message }}</td>
+                    <td>
+                        <span class="badge 
+                            {% if log.severity == 'high' %} bg-danger 
+                            {% elif log.severity == 'medium' %} bg-warning text-dark 
+                            {% else %} bg-success 
+                            {% endif %}">{{ log.severity|capitalize }}</span>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <div class="alert alert-info text-center mt-4 animate__animated animate__fadeIn">
+        No alerts found. Please upload a file to analyze.
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

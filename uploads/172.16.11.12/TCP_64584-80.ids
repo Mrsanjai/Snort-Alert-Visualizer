@@ -1,0 +1,50 @@
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.261381 172.16.11.12:64584 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:51734 IpLen:20 DgmLen:64 DF
+******S* Seq: 0xCB90A5C8  Ack: 0x0  Win: 0xFFFF  TcpLen: 44
+TCP Options (8) => MSS: 1460 NOP WS: 3 NOP NOP TS: 444433470 0 
+TCP Options => SackOK EOL 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.285267 172.16.11.12:64584 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:31591 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xCB90A5C9  Ack: 0xB09BAB85  Win: 0xFFFF  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 444433470 1310420293 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.285351 172.16.11.12:64584 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:32302 IpLen:20 DgmLen:558 DF
+***AP*** Seq: 0xCB90A5C9  Ack: 0xB09BAB85  Win: 0xFFFF  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 444433470 1310420293 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.325201 172.16.11.12:64584 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:43801 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xCB90A7C3  Ack: 0xB09BB6D5  Win: 0xFFF2  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 444433470 1310420318 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.325895 172.16.11.12:64584 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:50462 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xCB90A7C3  Ack: 0xB09BBA6A  Win: 0xFFFF  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 444433470 1310420318 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.577512 172.16.11.12:64584 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:50457 IpLen:20 DgmLen:603 DF
+***AP*** Seq: 0xCB90A7C3  Ack: 0xB09BBA6A  Win: 0xFFFF  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 444433473 1310420318 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.607385 172.16.11.12:64584 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:37127 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xCB90A9EA  Ack: 0xB09BBB76  Win: 0xFFFF  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 444433473 1310420610 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+

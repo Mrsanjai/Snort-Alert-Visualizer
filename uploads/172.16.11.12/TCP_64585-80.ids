@@ -1,0 +1,43 @@
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.261490 172.16.11.12:64585 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:38518 IpLen:20 DgmLen:64 DF
+******S* Seq: 0xEF7B59A3  Ack: 0x0  Win: 0xFFFF  TcpLen: 44
+TCP Options (8) => MSS: 1460 NOP WS: 3 NOP NOP TS: 444433470 0 
+TCP Options => SackOK EOL 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.290056 172.16.11.12:64585 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:59171 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xEF7B59A4  Ack: 0xD8915FDB  Win: 0xFFFF  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 444433470 864327953 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.290200 172.16.11.12:64585 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:4397 IpLen:20 DgmLen:557 DF
+***AP*** Seq: 0xEF7B59A4  Ack: 0xD8915FDB  Win: 0xFFFF  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 444433470 864327953 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.326705 172.16.11.12:64585 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:37696 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xEF7B5B9D  Ack: 0xD89160E8  Win: 0xFFFF  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 444433470 864327978 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.580736 172.16.11.12:64585 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:22575 IpLen:20 DgmLen:583 DF
+***AP*** Seq: 0xEF7B5B9D  Ack: 0xD89160E8  Win: 0xFFFF  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 444433473 864327978 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+[**] [DEMO] HTTP Request Detected [**]
+07/07-08:46:21.608612 172.16.11.12:64585 -> 96.17.211.172:80
+TCP TTL:64 TOS:0x0 ID:44126 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xEF7B5DB0  Ack: 0xD89161F6  Win: 0xFFFF  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 444433473 864328271 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
